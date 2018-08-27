@@ -4,16 +4,16 @@ var bar_load = loading.children[1];
 bar_loading = function(){
     setTimeout(function(){
         bar_load.style.width="12%";
-    },500);
+    },1500);
     setTimeout(function(){
         bar_load.style.width="25%";
-    },750);
+    },1750);
     setTimeout(function(){
         bar_load.style.width="50%";
-    },1000);
+    },2000);
      setTimeout(function(){
         bar_load.style.width="75%";
-    },1250);
+    },2250);
 }
 bar_loading();
 window.onload = function(){
